@@ -2,6 +2,8 @@
 # 讲师：kevin
 import os
 # 修改了urllib文件夹下request 的ProxySever参数 具体是proxyServer: 可以通过ctrl+F 定位到修改的位置
+import distutils.core
+
 import streamlit as st
 from openai import OpenAI
 
